@@ -23,11 +23,14 @@
 }
 .dugme {
   border-radius: 5px;
-  background-color: cyan;
+  background-color: rgb(55, 0, 255);
   margin-left: 175px;
   margin-top: 50px;
   width: 60px;
   height: 30px;
   cursor: pointer;
   font-size: 14px;
+  padding: 3px;
+  border: 0px rgb(55, 0, 255) solid;
+  color: white;
 }
