@@ -76,7 +76,6 @@
   height: 200px;
   width: 200px;
   margin: 0px;
-  position: relative;
   animation: mojaAnimacija 3s ease;
 }
 @keyframes mojaAnimacija {
