@@ -49,7 +49,7 @@ body {
 }
 .cardContainer {
   width: 90vw;
-  height: 55vh;
+  height: 57vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,6 +116,7 @@ li {
   height: 12%;
   background-color: gray;
   display: flex;
+  cursor: pointer;
 }
 .textButton {
   color: white;
@@ -135,6 +136,7 @@ li {
   height: 12%;
   background-color: purple;
   display: flex;
+  cursor: pointer;
 }
 .cardButtonContainer3 {
   justify-content: space-between;
@@ -148,4 +150,19 @@ li {
   height: 12%;
   background-color: gray;
   display: flex;
+  cursor: pointer;
+}
+.cardMinitext {
+  font-size: 14px;
+  color: gray;
+  margin-left: 25px;
+}
+.cardButtonContainer:hover {
+  background-color: rgb(78, 75, 75);
+}
+.cardButtonContainer3:hover {
+  background-color: rgb(78, 75, 75);
+}
+.cardButtonContainer2:hover {
+  background-color: rgb(70, 1, 70);
 }
