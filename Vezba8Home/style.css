@@ -5,6 +5,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .mainTitle {
   font-size: 40px;
   color: black;
@@ -67,8 +68,17 @@ body {
   width: 320px;
   height: 100%;
   border-radius: 15px;
-  border: 2px solid purple;
+  border: 2px solid darkslateblue;
   position: relative;
+}
+.cardPriceContainer {
+  width: 100%;
+  height: 90px;
+  margin-top: -25px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .cardSubTitle {
   margin-top: 25px;
@@ -78,10 +88,13 @@ body {
 }
 .cardTitle {
   margin-left: 28px;
-  margin-top: -15px;
   font-size: 55px;
   color: Black;
   font-weight: 300;
+}
+.cardTitleMonth {
+  font-size: 22px;
+  color: gray;
 }
 .bottomLine {
   margin-top: -40px;
@@ -113,7 +126,7 @@ li {
   margin-top: 59px;
   border: none;
   width: 85%;
-  height: 12%;
+  height: 11%;
   background-color: gray;
   display: flex;
   cursor: pointer;
@@ -121,8 +134,8 @@ li {
 .textButton {
   color: white;
   font-size: 18px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .cardButtonContainer2 {
   justify-content: space-between;
@@ -133,7 +146,7 @@ li {
   margin-top: 59px;
   border: none;
   width: 85%;
-  height: 12%;
+  height: 11%;
   background-color: darkslateblue;
   display: flex;
   cursor: pointer;
@@ -147,15 +160,16 @@ li {
   margin-top: -5px;
   border: none;
   width: 85%;
-  height: 12%;
+  height: 11%;
   background-color: gray;
   display: flex;
   cursor: pointer;
 }
 .cardMinitext {
-  font-size: 14px;
+  font-size: 13px;
   color: gray;
   margin-left: 25px;
+  margin-right: 20px;
 }
 .cardButtonContainer:hover {
   background-color: rgb(78, 75, 75);
