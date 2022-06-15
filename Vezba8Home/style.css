@@ -98,7 +98,7 @@ li {
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: purple;
+  background-color: darkslateblue;
   border: none;
   border-radius: 0px 10px 0px 0px;
   color: white;
@@ -134,7 +134,7 @@ li {
   border: none;
   width: 85%;
   height: 12%;
-  background-color: purple;
+  background-color: darkslateblue;
   display: flex;
   cursor: pointer;
 }
