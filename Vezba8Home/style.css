@@ -59,7 +59,7 @@ body {
 .card1 {
   width: 320px;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 11px;
   border: 1px solid gray;
   display: flex;
   flex-direction: column;
@@ -67,7 +67,7 @@ body {
 .card2 {
   width: 320px;
   height: 100%;
-  border-radius: 15px;
+  border-radius: 11px;
   border: 2px solid darkslateblue;
   position: relative;
 }
@@ -113,7 +113,7 @@ li {
   right: 0px;
   background-color: darkslateblue;
   border: none;
-  border-radius: 0px 10px 0px 0px;
+  border-radius: 0px 8px 0px 0px;
   color: white;
   padding: 6px 10px;
 }
