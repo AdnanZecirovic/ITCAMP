@@ -1,0 +1,17 @@
+.card1 {
+  width: 100px;
+  height: 50px;
+  background-color: aqua;
+  position: relative;
+}
+.card2 {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  display: none;
+  position: absolute;
+  top: 50px;
+}
+.card1:hover .card2 {
+  display: block;
+}
