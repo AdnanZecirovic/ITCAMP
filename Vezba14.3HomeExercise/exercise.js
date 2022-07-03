@@ -18,4 +18,3 @@ function division() {
   let b = parseInt(document.getElementById("secondNumber").value);
   document.getElementById("result").value = a / b;
 }
-document.getElementById("result").value = result;
