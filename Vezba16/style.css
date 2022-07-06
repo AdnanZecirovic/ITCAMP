@@ -6,6 +6,7 @@ table {
   height: 20%;
   width: 40%;
   border-collapse: collapse;
+  text-align: center;
 }
 tr {
   border-bottom: 1px solid gray;
@@ -34,8 +35,4 @@ th {
 }
 .border2 {
   border-top-right-radius: 8px;
-}
-td {
-  padding-left: 50px;
-  box-sizing: border-box;
 }
