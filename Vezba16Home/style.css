@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  background: linear-gradient(to right, blue, purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 70vw;
+  height: 80vh;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid white;
+}
+th {
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}
+tr:nth-child(odd) {
+  background: #fff;
+}
+tr:first-child {
+  background-color: rgb(16, 29, 29);
+  font-size: 18px;
+}
