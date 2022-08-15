@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+table {
+  height: 20%;
+  width: 40%;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr {
+  border-bottom: 1px solid gray;
+}
+.colorWay {
+  background-color: rgb(47, 143, 47);
+  color: white;
+  border-radius: 10px;
+}
+.diffText {
+  background-color: rgb(241, 228, 228);
+  color: rgb(47, 143, 47);
+  font-weight: bold;
+}
+.bottomBorder {
+  border-bottom: 2px solid rgb(47, 143, 47);
+}
+td,
+tr,
+table,
+th {
+  font-size: 20px;
+}
+.border1 {
+  border-top-left-radius: 8px;
+}
+.border2 {
+  border-top-right-radius: 8px;
+}

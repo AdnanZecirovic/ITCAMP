@@ -1,0 +1,19 @@
+.container {
+  width: 80vw;
+  height: 80vh;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card1 {
+  width: 300px;
+  height: 250px;
+  background-color: purple;
+}
+.card2 {
+  width: 300px;
+  height: 250px;
+  background-color: green;
+}

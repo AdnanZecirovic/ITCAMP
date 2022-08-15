@@ -1,0 +1,27 @@
+button {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.container {
+  width: 40vw;
+  height: 90vh;
+  box-shadow: 0px 0px 10px 2px gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+}

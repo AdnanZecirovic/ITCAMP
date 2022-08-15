@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.container1 {
+  margin-top: 20px;
+  width: 60vw;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.miniCont {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.card {
+  width: 800px;
+  height: 200px;
+  background: linear-gradient(to right, gray, black);
+}

@@ -1,0 +1,181 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainTitle {
+  font-size: 40px;
+  color: black;
+  font-weight: 400;
+  margin-top: 100px;
+}
+.subtitle {
+  font-size: 20px;
+  margin-top: -30px;
+  color: rgb(58, 58, 58);
+}
+.doubleDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid purple;
+}
+.Button1 {
+  width: 100px;
+  height: 40px;
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.Button2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.cardContainer {
+  width: 90vw;
+  height: 57vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card1 {
+  width: 320px;
+  height: 100%;
+  border-radius: 11px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.card2 {
+  width: 320px;
+  height: 100%;
+  border-radius: 11px;
+  border: 2px solid darkslateblue;
+  position: relative;
+}
+.cardPriceContainer {
+  width: 100%;
+  height: 90px;
+  margin-top: -25px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cardSubTitle {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 18px;
+  color: gray;
+}
+.cardTitle {
+  margin-left: 28px;
+  font-size: 55px;
+  color: Black;
+  font-weight: 300;
+}
+.cardTitleMonth {
+  font-size: 22px;
+  color: gray;
+}
+.bottomLine {
+  margin-top: -40px;
+  width: 80%;
+  border: 0.2px solid rgb(179, 177, 177);
+}
+li {
+  margin-left: 5px;
+  font-size: 18px;
+  color: rgb(133, 127, 127);
+  margin-bottom: 10px;
+}
+.divForCard2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: darkslateblue;
+  border: none;
+  border-radius: 0px 8px 0px 0px;
+  color: white;
+  padding: 6px 10px;
+}
+.cardButtonContainer {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 59px;
+  border: none;
+  width: 85%;
+  height: 11%;
+  background-color: gray;
+  display: flex;
+  cursor: pointer;
+}
+.textButton {
+  color: white;
+  font-size: 18px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.cardButtonContainer2 {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 59px;
+  border: none;
+  width: 85%;
+  height: 11%;
+  background-color: darkslateblue;
+  display: flex;
+  cursor: pointer;
+}
+.cardButtonContainer3 {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: -5px;
+  border: none;
+  width: 85%;
+  height: 11%;
+  background-color: gray;
+  display: flex;
+  cursor: pointer;
+}
+.cardMinitext {
+  font-size: 13px;
+  color: gray;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+.cardButtonContainer:hover {
+  background-color: rgb(78, 75, 75);
+}
+.cardButtonContainer3:hover {
+  background-color: rgb(78, 75, 75);
+}
+.cardButtonContainer2:hover {
+  background-color: rgb(70, 1, 70);
+}

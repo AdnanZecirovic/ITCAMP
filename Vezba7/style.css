@@ -1,0 +1,128 @@
+/* .card {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation: mojaAnimacija 2s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  cursor: pointer;
+} */
+/* .card:hover {
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+} */
+/* Ovo gore je babovska ideja za pop up kartice radi nekih objasnjenja */
+/* .card:hover {
+  transform: rotate(1360deg);
+  transition: 2s all ease;
+  width: 500px;
+  height: 500px;
+  transform: translate(100px, 100px);
+  pomera ga kao po marginama 
+
+   transform: scale(2, ,1); 
+  povecava, moze po x osi, y osi itd 
+
+   transform: skew(20deg, 20deg); 
+   razvuce ga ko stari logo za sony
+} */
+/* @keyframes mojaAnimacija {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: blue;
+  }
+} */
+/* body {
+  display: flex;
+}
+.card {
+  background-color: white;
+  background-image: url(go.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50vw;
+  height: 50vh;
+  z-index: 0;
+}
+.ball {
+  background-image: url(football.png);
+  animation: animacijaGola 3s ease;
+
+  margin-left: 70%;
+  margin-top: 70%;
+  z-index: 1;
+}
+@keyframes animacijaGola {
+  from {
+    width: 300px;
+    height: 300px;
+  }
+  to {
+    width: 150px;
+    height: 150px;
+    transform: rotate(infinite) translate(-300px, -100px);
+  }
+} */
+.box {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 0px;
+  animation: mojaAnimacija 3s ease;
+}
+@keyframes mojaAnimacija {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    background-color: green;
+    left: 300px;
+    top: 300px;
+  }
+  75% {
+    background-color: purple;
+    left: 0px;
+    top: 300px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+/* }
+@keyframes mojaAnimacija1 {
+  from {
+    background-color: yellow;
+    transform: translate(0px, 200px);
+  }
+  to {
+    background-color: blue;
+    transform: translate(200px, 200px);
+  }
+}
+@keyframes mojaAnimacija2 {
+  from {
+    background-color: red;
+    transform: translate(200px, 200px);
+  }
+  to {
+    background-color: green;
+    transform: translate(200px, 0px);
+  }
+} */

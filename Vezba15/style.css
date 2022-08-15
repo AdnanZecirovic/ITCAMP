@@ -1,0 +1,53 @@
+.container {
+  width: 80vw;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.card1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: purple;
+}
+.card2 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: red;
+}
+.card3 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  background-color: green;
+}
+.card4 {
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background-color: blue;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 45px;
+  text-shadow: 0px 0px 3px gray;
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px 2px gray;
+}
+/* 1fr znaci 1 frame, bolje da se to koristi umesto pixela za grids */

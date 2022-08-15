@@ -1,0 +1,41 @@
+.container {
+  border: 2px solid black;
+  position: relative;
+  height: 580px;
+  width: 252px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: azure;
+}
+.card1 {
+  border: 2px dotted black;
+  position: absolute;
+  height: 400px;
+  width: 50px;
+  top: 170px;
+  left: 10px;
+}
+.card2 {
+  border: 2px dotted black;
+  position: absolute;
+  height: 400px;
+  width: 50px;
+  top: 170px;
+  left: 70px;
+}
+.card3 {
+  border: 2px dotted black;
+  position: absolute;
+  height: 400px;
+  width: 50px;
+  top: 170px;
+  left: 130px;
+}
+.card4 {
+  border: 2px dotted black;
+  position: absolute;
+  height: 400px;
+  width: 50px;
+  top: 170px;
+  left: 190px;
+}

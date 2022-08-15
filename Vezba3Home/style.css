@@ -1,0 +1,27 @@
+.pozadina {
+  background-color: blanchedalmond;
+}
+.glavnaKartica {
+  background-color: antiquewhite;
+  display: flex;
+  width: 900px;
+  height: 850px;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+}
+.miniKartice {
+  width: 150px;
+  height: 130px;
+  margin-left: 15px;
+}
+.naslovKartice {
+  color: orange;
+  font-size: 25px;
+  margin-left: 15px;
+}
