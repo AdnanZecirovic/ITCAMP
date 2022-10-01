@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, blue, gray);
+}
+h1 {
+  margin-top: 4%;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px gray;
+}
+.adding {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-style: bold;
+  border-radius: 3px;
+}
+.miniKontejner {
+  margin-top: 2%;
+  background-color: white;
+  padding: 0px;
+  width: 30%;
+  height: 5%;
+  border-radius: 5px;
+}
+input {
+  width: 93%;
+  height: 100%;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.listaKontejner {
+  margin-top: 2%;
+  padding: 0px;
+  width: 30%;
+}
